@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="HieuNC">
+    <meta charset="UTF-8">
+
+    <!--favicon-->
+    <link rel="icon" href="assets/images/favicon.ico">
+
+    <title>Dashboard Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.min.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.png"/>
+            </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+            <form class="navbar-form navbar-right">
+                <input type="text" class="form-control" placeholder="Search...">
+            </form>
+        </div>
+    </div>
+</nav>
+<!--nave header-->
+
+
+<div class="container-fluid">
+    <div class="row">
+        <nav class="col-sm-2 sidebar">
+            <section>
+                <h2 class="tittle">Section</h2>
+                <ul class="nav nav-sidebar">
+                    <li class="active"><a href="#">Overview</a></li>
+                    <li><a href="#">Reports</a></li>
+                    <li><a href="#">Analytics</a></li>
+                    <li><a href="#">Export</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2 class="tittle">Section </h2>
+                <ul class="nav nav-sidebar">
+                    <li><a href="">Nav item</a></li>
+                    <li><a href="">Nav item again</a></li>
+                    <li><a href="">One more nav</a></li>
+                    <li><a href="">Another nav item</a></li>
+                    <li><a href="">More navigation</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2 class="tittle">Section </h2>
+                <ul class="nav nav-sidebar">
+                    <li><a href="">Nav item again</a></li>
+                    <li><a href="">One more nav</a></li>
+                    <li><a href="">Another nav item</a></li>
+                </ul>
+            </section>
+        </nav>
+        <!--.sidebar-->
+
+        <div class="col-sm-10 " id="main">
+            <div class="row">
+                <nav id="topicPath">
+                    <ol class="breadcrumb">
+                        <li><a href="#"><i class="glyphicon glyphicon-home"></i> Home</a></li>
+                        <li><a href="#">Library</a></li>
+                        <li class="active">Data</li>
+                    </ol>
+                </nav>
+                <h1>Quản lí đơn hàng</h1>
+                <article>
+                    <p>Để tìm đơn hàng. Nhập các tiêu chí tìm kiếm, vui lòng click vào nút Search.</p>
+                    <p class="text-danger">Để tìm đơn hàng. Nhập các tiêu chí tìm kiếm, vui lòng click vào nút Search.</p>
+                </article>
+
+                <div class="table-responsive">
+                    <table class="table table-bordered" border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <th style="width: 15%">Tên đơn hàng</th>
+                            <td>
+                                <input value="" name="search[name]" class="form-control" style="width: 250px;"
+                                       type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th style="width: 15%">Tên đơn hàng</th>
+                            <td>
+                                <input value="" name="search[name]" class="form-control" style="width: 250px;"
+                                       type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th style="width: 15%">Tên đơn hàng</th>
+                            <td>
+                                <input value="" name="search[name]" class="form-control" style="width: 250px;"
+                                       type="text">
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="BtnArea" style="text-align: center !important;">
+                    <input class="btn btn-default" title="Search" value="Search" type="submit">
+                </div>
+
+
+
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Header</th>
+                            <th>Header</th>
+                            <th>Header</th>
+                            <th>Header</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1,001</td>
+                            <td>Lorem</td>
+                            <td>ipsum</td>
+                            <td>dolor</td>
+                            <td>sit</td>
+                        </tr>
+                        <tr>
+                            <td>1,002</td>
+                            <td>amet</td>
+                            <td>consectetur</td>
+                            <td>adipiscing</td>
+                            <td>elit</td>
+                        </tr>
+                        <tr>
+                            <td>1,003</td>
+                            <td>Integer</td>
+                            <td>nec</td>
+                            <td>odio</td>
+                            <td>Praesent</td>
+                        </tr>
+                        <tr>
+                            <td>1,003</td>
+                            <td>libero</td>
+                            <td>Sed</td>
+                            <td>cursus</td>
+                            <td>ante</td>
+                        </tr>
+                        <tr>
+                            <td>1,004</td>
+                            <td>dapibus</td>
+                            <td>diam</td>
+                            <td>Sed</td>
+                            <td>nisi</td>
+                        </tr>
+                        <tr>
+                            <td>1,005</td>
+                            <td>Nulla</td>
+                            <td>quis</td>
+                            <td>sem</td>
+                            <td>at</td>
+                        </tr>
+                        <tr>
+                            <td>1,006</td>
+                            <td>nibh</td>
+                            <td>elementum</td>
+                            <td>imperdiet</td>
+                            <td>Duis</td>
+                        </tr>
+                        <tr>
+                            <td>1,007</td>
+                            <td>sagittis</td>
+                            <td>ipsum</td>
+                            <td>Praesent</td>
+                            <td>mauris</td>
+                        </tr>
+                        <tr>
+                            <td>1,008</td>
+                            <td>Fusce</td>
+                            <td>nec</td>
+                            <td>tellus</td>
+                            <td>sed</td>
+                        </tr>
+                        <tr>
+                            <td>1,009</td>
+                            <td>augue</td>
+                            <td>semper</td>
+                            <td>porta</td>
+                            <td>Mauris</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="mBoxitem_listinfo">
+                    <p class="pageList_data"><strong>Số lượng tin：</strong>11</p>
+                </div>
+
+                <div class="mBoxitem_listinfo">
+                    <ul class="pageList_link"><li class="stay"><strong>1</strong></li>
+                        <li><a href="/admin/orders/search?page=2">2</a></li>
+                        <li><a href="/admin/orders/search?page=2">≫</a></li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+<footer>COPYRIGHT © 2015 Owl Food Inc. All Rights Reserved.</footer>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+<script src="assets/js/holder.min.js"></script>
+<script src="assets/js/js.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+</html>
